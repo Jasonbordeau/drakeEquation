@@ -42,10 +42,13 @@ System.out.println("The number of intelligent species that are out there \n" +
     System.out.println("1 to 5 (stars with planets will have between 1 and 5 planets capable of developing life)");
     numberOfExoplanets = user.nextInt();
     System.out.println("1 (100% of these planets will develop life)");
-   
+    f_l = user.nextDouble();
+    System.out.println("1 (100% of which will develop intelligent life)");
 
 
 
-        }
+
+
+    }
 
 }
