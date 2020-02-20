@@ -46,7 +46,8 @@ System.out.println("The number of intelligent species that are out there \n" +
     System.out.println("1 (100% of which will develop intelligent life)");
     f_i = user.nextDouble();
     System.out.println("0.1 to 0.2 (10–20% of which will be able to communicate)");
-
+    f_c = user.nextDouble();
+    
 
 
 
