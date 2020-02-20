@@ -33,21 +33,19 @@ Scanner user;
 
 user = new Scanner(System.in);
 
-
-System.out.println("How many years passed?");
-    rStar = user.nextInt();6
-
+System.out.println("The number of intelligent species that are out there \n" +
+                "that can communicate with us is:");
+    System.out.println("1 yr=1 sr (1 star formed per year, on the average over the life of the galaxy; this was regarded as conservative)");
+    rStar = user.nextInt();
     System.out.println("0.2 to 0.5 (one fifth to one half of all stars formed will have planets)");
     f_p = user.nextDouble();
-
-    
-
-        System.out.println("The number of intelligent species that are out there \n" +
-                "that can communicate with us is:");
-
+    System.out.println("1 to 5 (stars with planets will have between 1 and 5 planets capable of developing life)");
+    numberOfExoplanets = user.nextInt();
+    System.out.println("1 (100% of these planets will develop life)");
+   
 
 
 
-    }
+        }
 
 }
