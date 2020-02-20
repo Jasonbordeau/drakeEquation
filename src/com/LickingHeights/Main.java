@@ -47,7 +47,8 @@ System.out.println("The number of intelligent species that are out there \n" +
     f_i = user.nextDouble();
     System.out.println("0.1 to 0.2 (10–20% of which will be able to communicate)");
     f_c = user.nextDouble();
-    
+    System.out.println("1000 to 100,000,000 years (which will last somewhere between 1000 and 100,000,000 years)");
+    L = user.nextInt();
 
 
 
