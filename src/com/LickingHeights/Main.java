@@ -33,11 +33,14 @@ Scanner user;
 
 user = new Scanner(System.in);
 
-System.out.println("How many years passed?");
-    rStar = user.nextInt();
-    System.out.println(".." + rStar);
 
+System.out.println("How many years passed?");
+    rStar = user.nextInt();6
+
+    System.out.println("0.2 to 0.5 (one fifth to one half of all stars formed will have planets)");
     f_p = user.nextDouble();
+
+    
 
         System.out.println("The number of intelligent species that are out there \n" +
                 "that can communicate with us is:");
